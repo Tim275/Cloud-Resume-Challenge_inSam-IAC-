@@ -25,10 +25,12 @@ function Intro() {
    return (
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
          <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Timour Miagol</h1>
-         <p className="text-base md:text-xl mb-3 font-medium"> Future Devops engineer</p>
+         <p className="text-base md:text-xl mb-3 font-medium">
+  <span style={{color: 'blue'}}>Devops engineer</span> &infin;
+</p>
          <p className="text-sm max-w-xl mb-6 font-bold">
-            I'm am a Future Devops engineer with a Focus on Machine Learning and that Portfolio is a Part of my Cloud Resume
-            Challenge.  For more information about me, my Projects, Certifications and my Image :P just peek up on my Github.
+ I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the Cloud Resume Challenge. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub profile.
+Sincerely,
             <br />
         {' '}
             <a
