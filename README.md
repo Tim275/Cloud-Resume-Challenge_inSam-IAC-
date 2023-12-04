@@ -1,4 +1,5 @@
 <h1>Cloud Resume Project</h1>
+![image](https://github.com/Tim275/Cloud-Resume-Challenge/assets/117520669/fc847aed-77b1-48a3-ad0c-81f4488f2495)
 
 <h2>Description</h2>
  The goal of this project was to leverage the power of the Cloud (in my case AWS) and some of it's key services to create a fully functioning serverless web application that "serves" (no pun intended) as a resume or portfolio.
