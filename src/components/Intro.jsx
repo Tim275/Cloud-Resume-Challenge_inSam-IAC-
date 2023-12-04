@@ -1,0 +1,55 @@
+import React from 'react';
+import './style.css';
+import { useState, useEffect } from 'react';
+
+
+
+
+
+
+function Intro() {
+
+   const [counter, setCounter] = useState(0);
+
+   useEffect(() => {
+       async function updateCounter() {
+           let response = await fetch("https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/");
+           let data = await response.json();
+           setCounter(data);
+       }
+
+       updateCounter();
+   }, []);
+
+
+   return (
+      <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
+         <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Timour Miagol</h1>
+         <p className="text-base md:text-xl mb-3 font-medium"> Future Devops engineer</p>
+         <p className="text-sm max-w-xl mb-6 font-bold">
+            I'm am a Future Devops engineer with a Focus on Machine Learning and that Portfolio is a Part of my Cloud Resume
+            Challenge.  For more information about me, my Projects, Certifications and my Image :P just peek up on my Github.
+            <br />
+        {' '}
+            <a
+               href="https://github.com/Tim275"
+               target="_blank"
+               className="text-red-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
+               rel="noreferrer noopener"
+            >
+               Timour Miagol
+           
+            </a>{' '}
+            
+            
+         </p>
+         <h5 className="rainbow-text"> View Counter:     {counter}  </h5>
+     
+      </div>
+
+
+
+   )
+}
+
+export default Intro;
