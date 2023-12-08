@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfinity } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -26,7 +28,7 @@ function Intro() {
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
          <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Timour Miagol</h1>
          <p className="text-base md:text-xl mb-3 font-medium">
-  <span style={{color: 'blue'}}>Devops engineer</span> &infin;
+  <span style={{color: 'blue'}}>Devops engineer</span> 
 </p>
          <p className="text-sm max-w-xl mb-6 font-bold">
  I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the Cloud Resume Challenge. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub profile.
