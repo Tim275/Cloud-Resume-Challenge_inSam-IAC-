@@ -3,7 +3,7 @@ export default [
       title: 'Cloud Resume Challenge ',
       imgUrl: '/assets/Cloud-Resume.png',
       stack: ['React', 'Javascript', 'AWS'],
-      link: 'https://github.com/Tim275/Cloud-Resume-Challenge',
+      link: 'https://github.com/Tim275/Cloud-Resume-Challenge_inSam-IAC-',
    },
    {
       title: 'Serverless TodoApp',

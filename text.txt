@@ -1,1 +1,3 @@
-jjjhuhjihjihjihewqewqewqxxxsswwaaaddsadasdassss
+personal notes:
+
+1) IAM user with FULLS3access --> Fresh keys + acl disabled

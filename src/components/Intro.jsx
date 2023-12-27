@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import '../styles/style.css';
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfinity } from '@fortawesome/free-solid-svg-icons';
