@@ -1,6 +1,7 @@
 <h1>Cloud Resume Project</h1>
 
-![image](https://github.com/Tim275/Cloud-Resume-Challenge/assets/117520669/228fd48d-0a8c-44ca-ae7c-27e21c5dfd2e)
+![image](https://github.com/Tim275/Cloud-Resume-Challenge_inSam-IAC-/assets/117520669/e69e31dd-5df8-4c42-a061-4078366e9100)
+
 
 
 
