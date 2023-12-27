@@ -23,7 +23,7 @@ After the site was functional and in production, I integrated CI/CD using GitHub
 - <b>AWS Lambda</b>
 - <b>AWS DynamoDB</b>
 - <b>GitHub Actions</b>
-
+- <b> CI/CD </b>
 
 <h2> SAM</h2>
 
