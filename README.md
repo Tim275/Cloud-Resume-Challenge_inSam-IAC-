@@ -23,3 +23,8 @@ After the site was functional and in production, I integrated CI/CD using GitHub
 - <b>AWS Lambda</b>
 - <b>AWS DynamoDB</b>
 - <b>GitHub Actions</b>
+
+
+<h2> SAM</h2>
+
+Project is mostly made in AWS Sam with IAC (Infrastructure as Code)
