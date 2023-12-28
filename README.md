@@ -13,6 +13,9 @@ In summary, I setup an S3 bucket that stores all of my React files for the websi
 
 After the site was functional and in production, I integrated CI/CD using GitHub actions to run a YAML workflow that updates my S3 bucket automatically after I commit and sync any code changes I make to my site via VSCode. <br />
 
+<h2> SAM</h2>
+
+Project is mostly made in AWS Sam with IAC (Infrastructure as Code)
 
 <h2>Environments Used </h2>
 
@@ -23,8 +26,6 @@ After the site was functional and in production, I integrated CI/CD using GitHub
 - <b>AWS Lambda</b>
 - <b>AWS DynamoDB</b>
 - <b>GitHub Actions</b>
+- <b> CI/CD </b>
 
 
-<h2> SAM</h2>
-
-Project is mostly made in AWS Sam with IAC (Infrastructure as Code)
