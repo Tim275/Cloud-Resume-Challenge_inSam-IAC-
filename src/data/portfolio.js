@@ -2,7 +2,7 @@ export default [
    {
       title: 'Cloud Resume Challenge ',
       imgUrl: '/assets/Cloud-Resume.png',
-      stack: ['React', 'Javascript', 'AWS'],
+      stack: ['React', 'Javascript','AWS','CI/CD'],
       link: 'https://github.com/Tim275/Cloud-Resume-Challenge_inSam-IAC-',
    },
    {
@@ -15,7 +15,7 @@ export default [
    {
       title: 'Building a CI/CD Pipeline',
       imgUrl: '/assets/devops1.png',
-      stack: ['DevOps',  'Jenkins', 'Terraform' ],
+      stack: [,'Jenkins','Terraform','K8','Docker' ],
       link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
    },
 
