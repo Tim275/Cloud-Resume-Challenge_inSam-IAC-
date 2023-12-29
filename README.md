@@ -25,7 +25,7 @@ Project is mostly made in AWS Sam with IAC (Infrastructure as Code)
 - <b>Amazon S3</b>
 - <b>AWS Lambda</b>
 - <b>AWS DynamoDB</b>
-- <b>GitHub Actions</b>
-- <b> CI/CD </b>
+- <b>GitHub Actions (CI/CD) </b>
+
 
 
