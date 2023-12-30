@@ -6,6 +6,7 @@
 
 
 
+
 <h2>Description</h2>
  The goal of this project was to leverage the power of the Cloud (in my case AWS) and some of it's key services to create a fully functioning serverless web application that "serves" (no pun intended) as a resume or portfolio.
 
@@ -25,7 +26,7 @@ Project is mostly made in AWS Sam with IAC (Infrastructure as Code)
 - <b>Amazon S3</b>
 - <b>AWS Lambda</b>
 - <b>AWS DynamoDB</b>
-- <b>GitHub Actions</b>
-- <b> CI/CD </b>
+- <b>GitHub Actions (CI/CD) </b>
+
 
 
