@@ -16,7 +16,7 @@ export default [
         dark: '/assets/cicdgitopsdark.drawio.png'
     },
     stack: ['ArgoCD','Jenkins','K8',],
-    link: '#',
+    link: 'https://github.com/Tim275/Reddit-Clone-app',
  },
 
   {
