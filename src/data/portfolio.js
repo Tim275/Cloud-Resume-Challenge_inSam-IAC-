@@ -9,7 +9,7 @@ export default [
       link: 'https://github.com/Tim275/Cloud-Resume-Challenge_inSam-IAC-',
   },
   {
-    title: 'Tetris Deployment with ArgoCD',
+    title: 'Tetris Deploy with ArgoCD',
     imgUrl: {
         light: '/assets/GitOpshell.png',
         dark: '/assets/GitOpsDARK.png'
