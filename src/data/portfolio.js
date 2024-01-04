@@ -15,7 +15,7 @@ export default [
         light: '/assets/cicdgitops.drawio.png',
         dark: '/assets/cicdgitopsdark.drawio.png'
     },
-    stack: ['ArgoCD','Terraform','K8'],
+    stack: ['ArgoCD','Jenkins','K8',],
     link: '#',
  },
 
@@ -44,7 +44,7 @@ export default [
       title: 'Serverless TodoApp',
       imgUrl: {
           light: '/assets/Serverless_TODO.png',
-          dark: '/assets/Serverless_TODO-dark.png'
+          dark: '/assets/Serverless_TODO.png'
       },
       stack: ['React', 'Tailwind', 'AWS','Node'],
       link: 'https://github.com/Tim275/Serverless-TODO-APP-Frontend',
@@ -53,7 +53,7 @@ export default [
       title: 'News analysis with AWS Comprehend',
       imgUrl: {
           light: '/assets/newsanalysis.png',
-          dark: '/assets/newsanalysis-dark.png'
+          dark: '/assets/newsanalysis.png'
       },
       stack: ['Python', 'AWS'],
       link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
