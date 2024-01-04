@@ -10,6 +10,25 @@ export default [
   },
 
   {
+    title: 'DevSecOps',
+    imgUrl: {
+        light: '/assets/cicdgitops.drawio.png',
+        dark: '/assets/cicdgitopsdark.drawio.png'
+    },
+    stack: ['ArgoCD','Terraform','K8'],
+    link: '#',
+ },
+
+  {
+    title: 'Gitops and ArgoCD',
+    imgUrl: {
+        light: '/assets/GitOpshell.png',
+        dark: '/assets/GitOpsDARK.png'
+    },
+    stack: ['ArgoCD','Terraform','K8'],
+    link: 'https://github.com/Tim275/tetris-game',
+ },
+  {
    title: 'Building a CI/CD Pipeline',
    imgUrl: {
        light: '/assets/devops1.png',
@@ -19,15 +38,7 @@ export default [
    link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
 },
 
-  {
-      title: 'Gitops and ArgoCD',
-      imgUrl: {
-          light: '/assets/GitOpshell.png',
-          dark: '/assets/GitOpsDARK.png'
-      },
-      stack: ['ArgoCD','Terraform','K8'],
-      link: 'https://github.com/Tim275/tetris-game',
-   },
+
 
    {
       title: 'Serverless TodoApp',
