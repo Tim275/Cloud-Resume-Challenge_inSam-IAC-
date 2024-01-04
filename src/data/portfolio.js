@@ -10,7 +10,7 @@ export default [
   },
 
   {
-    title: 'DevSecOps',
+    title: 'DevSecOps-Reddit-Clone',
     imgUrl: {
         light: '/assets/cicdgitops.drawio.png',
         dark: '/assets/cicdgitopsdark.drawio.png'
