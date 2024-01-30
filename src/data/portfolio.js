@@ -45,7 +45,7 @@ export default [
           light: '/assets/Serverless_TODO.png',
           dark: '/assets/Serverless_TODO.png'
       },
-      stack: ['React', 'Tailwind', 'AWS','Node'],
+      stack: ['React', 'Serverless', 'AWS','Node'],
       link: 'https://github.com/Tim275/Serverless-TODO-APP-Frontend',
    },
    {
@@ -54,7 +54,7 @@ export default [
           light: '/assets/newsanalysis.png',
           dark: '/assets/newsanalysis.png'
       },
-      stack: ['Python', 'AWS'],
+      stack: ['Python', 'AWS','Serverless'],
       link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
    },
 ];
