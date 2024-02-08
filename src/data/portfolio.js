@@ -8,6 +8,16 @@ export default [
       stack: ['React', 'Javascript','AWS','CI/CD'],
       link: 'https://github.com/Tim275/Cloud-Resume-Challenge_inSam-IAC-',
   },
+
+  {
+    title: 'AWS 3-Tier Web Architecture',
+    imgUrl:  {
+        light: '/assets/3TierArch.png',
+        dark: '/assets/3TierArch.png'
+    },
+    stack: ['AWS', 'Terraform','MySQL'],
+    link: 'https://github.com/Tim275/aws-3-tier-web-architecture-IAC',
+},
   {
     title: 'Tetris Deploy with ArgoCD',
     imgUrl: {
@@ -37,7 +47,6 @@ export default [
    stack: ['Jenkins','Ansible','K8','Docker' ],
    link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
 },
-
 
    {
       title: 'Serverless TodoApp',
