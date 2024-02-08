@@ -1,5 +1,5 @@
 export default [
-	
+	// adjust more items above
 	{
 		year: 'April 2023',
 		title: 'Techstarter Training',

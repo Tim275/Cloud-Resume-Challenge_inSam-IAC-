@@ -30,29 +30,23 @@ function Intro() {
          <p className="text-base md:text-xl mb-3 font-medium">
   <span style={{color: 'blue'}}>Devops engineer</span> 
 </p>
-         <p className="text-sm max-w-xl mb-6 font-bold">
- I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the Cloud Resume Challenge. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub profile.
-Sincerely,
-            <br />
-        {' '}
-            <a
-               href="https://github.com/Tim275"
-               target="_blank"
-               className="text-red-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
-               rel="noreferrer noopener"
-            >
-               Timour Miagol
-           
-            </a>{' '}
-            
-            
-         </p>
+        <p className="text-sm max-w-xl mb-6 font-bold">
+  I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the <span style={{color: 'green'}}>Cloud Resume Challenge</span>. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub profile.
+  Sincerely,
+  <br />
+  {' '}
+  <a
+    href="https://github.com/Tim275"
+    target="_blank"
+    className="text-red-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
+    rel="noreferrer noopener"
+  >
+    Timour Miagol
+  </a>{' '}
+</p>
          <h5 className="rainbow-text"> View Counter:     {counter}  </h5>
      
       </div>
-
-
-
    )
 }
 
