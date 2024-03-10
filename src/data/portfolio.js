@@ -37,6 +37,15 @@ export default [
     stack: ['ArgoCD','Jenkins','K8',],
     link: 'https://github.com/Tim275/Reddit-Clone-app',
  },
+ {
+    title: 'CI/CD Pipelinve JAVA apps',
+    imgUrl: {
+        light: '/assets/jenkinsmavenhell.png',
+        dark: '/assets/jenkinsmavendark.png'
+    },
+    stack: ['ArgoCD','Jenkins','K8','Java'],
+    link: 'https://github.com/Tim275/Project3---java-maven-sonar-argocd-k8s',
+ },
 
 
   {
