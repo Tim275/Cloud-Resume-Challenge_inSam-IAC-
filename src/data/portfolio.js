@@ -18,6 +18,16 @@ export default [
     stack: ['AWS', 'Terraform','MySQL'],
     link: 'https://github.com/Tim275/aws-3-tier-web-architecture-IAC',
 },
+
+{
+    title: 'k8 3-Tier Architecture',
+    imgUrl:  {
+        light: '/assets/k8hell.png',
+        dark: '/assets/k8dark.png '
+    },
+    stack: ['CI/CD', 'Terraform','Kubernetes'],
+    link: 'https://github.com/Tim275/k8-3-tier-project',
+},
 //tttt
   {
     title: 'Tetris Deploy with ArgoCD',
