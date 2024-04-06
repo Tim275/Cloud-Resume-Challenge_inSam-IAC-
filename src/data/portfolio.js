@@ -26,7 +26,7 @@ export default [
         dark: '/assets/k8dark.png '
     },
     stack: ['CI/CD', 'Terraform','Kubernetes'],
-    link: 'https://github.com/Tim275/k8-3-tier-project',
+    link: 'https://github.com/Tim275/kubernetes-3-tier-application',
 },
 //tttt
   {
