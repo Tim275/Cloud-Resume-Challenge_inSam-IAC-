@@ -28,6 +28,16 @@ export default [
     stack: ['CI/CD', 'Terraform','Kubernetes'],
     link: 'https://github.com/Tim275/kubernetes-3-tier-application',
 },
+
+{
+    title: 'genai-serverless-api',
+    imgUrl:  {
+        light: '/assets/bedrockhell.png',
+        dark: '/assets/bedrockdark.png   '
+    },
+    stack: ['AWS', 'Python','Serverless'],
+    link: 'https://github.com/Tim275/genai-serverless-api-backend?tab=readme-ov-file',
+},
 //tttt
   {
     title: 'Tetris Deploy with ArgoCD',
@@ -58,15 +68,6 @@ export default [
  },
 
 
-  {
-   title: 'Building a CI/CD Pipeline',
-   imgUrl: {
-       light: '/assets/devops1.png',
-       dark: '/assets/devops1.png'
-   },
-   stack: ['Jenkins','Ansible','K8','Docker' ],
-   link: 'https://github.com/Tim275/News-Analys-with-AWS-Comprehend',
-},
 
    {
       title: 'Serverless TodoApp',
