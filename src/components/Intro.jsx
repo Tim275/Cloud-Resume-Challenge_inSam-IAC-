@@ -6,32 +6,21 @@ import { faInfinity } from '@fortawesome/free-solid-svg-icons';
 
 
 
-
-
-
 function Intro() {
   const [counter, setCounter] = useState(0);
 
- // useEffect(() => {
-//     async function updateCounter() {
-//         let response = await fetch("https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/");
-//         let data = await response.json();
-//         setCounter(data);
-//     }
-
-//     updateCounter();
-// }, []);
-
-
 useEffect(() => {
     async function updateCounter() {
-        let response = await fetch(process.env.REACT_APP_API_URL);
+        let response = await fetch("https://ufjnjkvixmwjqc7xv5h6lp4yxi0qpyxt.lambda-url.eu-central-1.on.aws/");
         let data = await response.json();
         setCounter(data);
     }
 
     updateCounter();
 }, []);
+
+https://ufjnjkvixmwjqc7xv5h6lp4yxi0qpyxt.lambda-url.eu-central-1.on.aws/
+//https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/
 
    return (
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
