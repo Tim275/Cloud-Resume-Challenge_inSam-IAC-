@@ -38,6 +38,10 @@ export default [
     stack: ['AWS', 'Python','Serverless'],
     link: 'https://github.com/Tim275/genai-serverless-api-backend?tab=readme-ov-file',
 },
+
+
+
+
 //tttt
   {
     title: 'Tetris Deploy with ArgoCD',
@@ -76,7 +80,7 @@ export default [
           dark: '/assets/Serverless_TODO.png'
       },
       stack: ['React', 'Serverless', 'AWS','Node'],
-      link: 'https://github.com/Tim275/Serverless-TODO-APP-Frontend',
+      link: 'https://github.com/Tim275/serverless-todo-backend',
    },
    {
       title: 'News analysis with AWS Comprehend',
