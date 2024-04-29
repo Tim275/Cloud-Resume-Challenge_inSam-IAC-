@@ -41,13 +41,13 @@ export default [
 
 
 {
-    title: 'Event-Driven-app',
+    title: 'Event-Driven Store',
     imgUrl:  {
         light: '/assets/eventdrivenhell.png',
-        dark: '/assets/eventdrivendunkel.png   '
+        dark: '/assets/eventdrivendark.png'
     },
-    stack: ['ongoing'],
-    link: 'https://github.com/Tim275/even-driven-booking-app',
+    stack: ['AWS', 'Node','Serverless','CI/CD'],
+    link: 'https://github.com/Tim275/event-driven-order-service-backend',
 },
 
 

@@ -11,7 +11,7 @@ function Intro() {
 
 useEffect(() => {
     async function updateCounter() {
-        let response = await fetch("https://ufjnjkvixmwjqc7xv5h6lp4yxi0qpyxt.lambda-url.eu-central-1.on.aws/");
+        let response = await fetch("https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/");
         let data = await response.json();
         setCounter(data);
     }
@@ -19,7 +19,7 @@ useEffect(() => {
     updateCounter();
 }, []);
 
-https://ufjnjkvixmwjqc7xv5h6lp4yxi0qpyxt.lambda-url.eu-central-1.on.aws/
+//https://ufjnjkvixmwjqc7xv5h6lp4yxi0qpyxt.lambda-url.eu-central-1.on.aws/
 //https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/
 
    return (
