@@ -29,8 +29,8 @@ useEffect(() => {
   <span style={{color: 'blue'}}>Devops engineer</span> 
 </p>
         <p className="text-sm max-w-xl mb-6 font-bold">
-  I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the <span style={{color: 'green'}}>Cloud Resume Challenge</span>. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub profile.
-  Sincerely,
+  I am a DevOps engineer with a focus on <span style={{color: 'purple'}}>Machine Learning</span>, and this portfolio is a crucial aspect of my participation in the <span style={{color: 'green'}}>Cloud Resume Challenge</span>. To learn more about my professional background, projects, certifications, and to gain insights into my persona, please visit my GitHub  or my Linkedin Profile down below.
+Sincerely,
   <br />
   {' '}
   <a
