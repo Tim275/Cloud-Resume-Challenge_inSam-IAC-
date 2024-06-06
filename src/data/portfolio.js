@@ -20,7 +20,7 @@ export default [
 },
 
 {
-    title: 'k8 3-Tier Architecture',
+    title: 'k8 3-Tier Architecture ',
     imgUrl:  {
         light: '/assets/k8hell.png',
         dark: '/assets/k8dark.png '
@@ -28,6 +28,20 @@ export default [
     stack: ['CI/CD', 'Terraform','Kubernetes'],
     link: 'https://github.com/Tim275/kubernetes-3-tier-application',
 },
+
+
+{
+    title: 'k8 Microservice Project',
+    imgUrl:  {
+        light: '/assets/ProjectArchitecture.png',
+        dark: '/assets/ProjectArchitecturedunkel.png# '
+    },
+    stack: ['Microservices','RabbitMQ','Kubernetes','Helm'],
+    link: 'https://github.com/Tim275/k8---shopping-portal-microservice',
+},
+
+
+
 
 {
     title: 'genai-serverless-api',
