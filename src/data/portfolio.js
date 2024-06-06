@@ -37,7 +37,7 @@ export default [
         dark: '/assets/ProjectArchitecturedunkel.png# '
     },
     stack: ['Microservices','Kubernetes','Helm'],
-    link: 'https://github.com/Tim275/k8---shopping-portal-microservice',
+    link: 'https://github.com/Tim275/microservices-python-app',
 },
 
 
