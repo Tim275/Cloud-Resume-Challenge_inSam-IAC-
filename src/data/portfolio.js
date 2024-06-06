@@ -36,7 +36,7 @@ export default [
         light: '/assets/ProjectArchitecture.png',
         dark: '/assets/ProjectArchitecturedunkel.png# '
     },
-    stack: ['Microservices','RabbitMQ','Kubernetes','Helm'],
+    stack: ['Microservices','Kubernetes','Helm'],
     link: 'https://github.com/Tim275/k8---shopping-portal-microservice',
 },
 
