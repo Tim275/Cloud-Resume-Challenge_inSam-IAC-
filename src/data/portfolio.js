@@ -10,6 +10,16 @@ export default [
   },
 
   {
+    title: 'k8 3-Tier Architecture ',
+    imgUrl:  {
+        light: '/assets/k8hell.png',
+        dark: '/assets/k8dark.png '
+    },
+    stack: ['CI/CD', 'Terraform','Kubernetes'],
+    link: 'https://github.com/Tim275/kubernetes-3-tier-application',
+},
+
+  {
     title: 'AWS 3-Tier Web Architecture',
     imgUrl:  {
         light: '/assets/3TierArch.png',
@@ -19,15 +29,7 @@ export default [
     link: 'https://github.com/Tim275/aws-3-tier-web-architecture-IAC',
 },
 
-{
-    title: 'k8 3-Tier Architecture ',
-    imgUrl:  {
-        light: '/assets/k8hell.png',
-        dark: '/assets/k8dark.png '
-    },
-    stack: ['CI/CD', 'Terraform','Kubernetes'],
-    link: 'https://github.com/Tim275/kubernetes-3-tier-application',
-},
+
 
 
 {
@@ -38,6 +40,17 @@ export default [
     },
     stack: ['Microservices','Kubernetes','Helm'],
     link: 'https://github.com/Tim275/microservices-python-app',
+},
+
+
+{
+    title: 'CI/CD Pipeline for ECS',
+    imgUrl:  {
+        light: '/assets/cicdecrhell.png',
+        dark: '/assets/cicdecrdunkel.png   '
+    },
+    stack: ['AWS', 'CI/CD','Docker'],
+    link: 'https://github.com/Tim275/container_aws_ecs_ci_cd_pipeline.git',
 },
 
 
