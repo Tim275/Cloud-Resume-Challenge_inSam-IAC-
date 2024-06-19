@@ -36,7 +36,7 @@ export default [
         dark: '/assets/FullstackCDKdunkel.png'
     },
     stack: ['CDK','Typescript','CI/CD','AWS'],
-    link: 'https://github.com/Tim275/serverless-todo-backend',
+    link: 'https://github.com/Tim275/fullstack_Cdk-/tree/main',
  },
  {
     title: 'DevSecOps-Reddit-Clone',
