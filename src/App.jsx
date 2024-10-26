@@ -7,6 +7,7 @@ import Timeline from "./components/Timeline";
 
 function App() {
   const [theme, setTheme] = useState(null);
+  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -27,6 +28,25 @@ function App() {
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);
+
+  useEffect(() => {
+    async function updateCounter() {
+      try {
+        let response = await fetch(
+          "https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        let data = await response.json();
+        setCounter(data);
+      } catch (error) {
+        console.error("Failed to fetch counter:", error);
+      }
+    }
+
+    updateCounter();
+  }, []);
 
   const sun = (
     <svg
@@ -64,13 +84,16 @@ function App() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={handleThemeSwitch}
-        className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
-      >
-        {theme === "dark" ? sun : moon}
-      </button>
+      <div className="fixed p-2 z-10 right-20 top-4 flex items-center space-x-4">
+        <span className="rainbow-text">Views: {counter}</span>
+        <button
+          type="button"
+          onClick={handleThemeSwitch}
+          className="bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+        >
+          {theme === "dark" ? moon : sun}
+        </button>
+      </div>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
