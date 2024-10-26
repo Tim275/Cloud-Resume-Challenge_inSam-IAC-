@@ -29,8 +29,24 @@ export default [
     link: 'https://github.com/Tim275/aws-3-tier-web-architecture-IAC',
 },
 
-
-
+{
+    title: 'CDK Fullstack App',
+    imgUrl: {
+        light: '/assets/FullstackCDKhell.png',
+        dark: '/assets/FullstackCDKdunkel.png'
+    },
+    stack: ['CDK','Typescript','CI/CD','AWS'],
+    link: 'https://github.com/Tim275/fullstack_Cdk-/tree/main',
+ },
+ {
+    title: 'DevSecOps-Reddit-Clone',
+    imgUrl: {
+        light: '/assets/cicdgitops.drawio.png',
+        dark: '/assets/cicdgitopsdark.drawio.png'
+    },
+    stack: ['ArgoCD','Jenkins','K8',],
+    link: 'https://github.com/Tim275/Reddit-Clone-app',
+ },
 
 {
     title: 'k8 Microservice Project',
@@ -89,15 +105,7 @@ export default [
     stack: ['ArgoCD','Terraform','K8'],
     link: 'https://github.com/Tim275/tetris-game',
  },
-  {
-    title: 'DevSecOps-Reddit-Clone',
-    imgUrl: {
-        light: '/assets/cicdgitops.drawio.png',
-        dark: '/assets/cicdgitopsdark.drawio.png'
-    },
-    stack: ['ArgoCD','Jenkins','K8',],
-    link: 'https://github.com/Tim275/Reddit-Clone-app',
- },
+
  {
     title: 'CI/CD Pipelinve JAVA apps',
     imgUrl: {
@@ -110,17 +118,10 @@ export default [
 
 
 
+  
+
    {
-      title: 'Serverless TodoApp',
-      imgUrl: {
-          light: '/assets/Serverless_TODO.png',
-          dark: '/assets/Serverless_TODO.png'
-      },
-      stack: ['React', 'Serverless', 'AWS','Node'],
-      link: 'https://github.com/Tim275/serverless-todo-backend',
-   },
-   {
-      title: 'News analysis with AWS Comprehend',
+      title: ' AWS Comprehend',
       imgUrl: {
           light: '/assets/newsanalysis.png',
           dark: '/assets/newsanalysis.png'
