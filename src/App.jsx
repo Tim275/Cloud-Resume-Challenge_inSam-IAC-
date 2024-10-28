@@ -7,7 +7,6 @@ import Timeline from "./components/Timeline";
 
 function App() {
   const [theme, setTheme] = useState(null);
-  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -28,25 +27,6 @@ function App() {
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);
-
-  useEffect(() => {
-    async function updateCounter() {
-      try {
-        let response = await fetch(
-          "https://yumhn6nkcddwvbtoutzsa55wsi0msjuk.lambda-url.eu-central-1.on.aws/"
-        );
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        let data = await response.json();
-        setCounter(data);
-      } catch (error) {
-        console.error("Failed to fetch counter:", error);
-      }
-    }
-
-    updateCounter();
-  }, []);
 
   const sun = (
     <svg
@@ -71,7 +51,7 @@ function App() {
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="white"
+      stroke="currentColor"
       className="w-6 h-6"
     >
       <path
@@ -84,8 +64,7 @@ function App() {
 
   return (
     <>
-      <div className="fixed p-2 z-10 right-20 top-4 flex items-center space-x-4">
-        <span className="rainbow-text">Views: {counter}</span>
+      <div className="fixed p-2 z-10 right-20 top-4">
         <button
           type="button"
           onClick={handleThemeSwitch}

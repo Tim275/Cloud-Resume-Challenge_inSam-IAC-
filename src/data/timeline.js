@@ -1,9 +1,9 @@
 export default [
   {
     year: "August 2024",
-    title: "DevOps Engineer",
+    title: "Bankverlag GmbH",
     duration: "present",
-    details: "Administrative Devops Role. more details incoming...",
+    details: "Devops Engineer.",
     tools: "Kubernetes, Elasticsearch, Kong Gateway",
   },
   {
