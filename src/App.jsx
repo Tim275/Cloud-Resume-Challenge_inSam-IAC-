@@ -6,21 +6,15 @@ import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 
 function App() {
-  const [theme, setTheme] = useState(null);
-
-  useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }, []);
+  // Initialize theme to 'light' by default
+  const [theme, setTheme] = useState("light");
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
   useEffect(() => {
+    console.log("Current theme:", theme); // Debugging line
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -70,7 +64,7 @@ function App() {
           onClick={handleThemeSwitch}
           className="bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
         >
-          {theme === "dark" ? moon : sun}
+          {theme === "dark" ? sun : moon}
         </button>
       </div>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
