@@ -64,7 +64,7 @@ function App() {
           onClick={handleThemeSwitch}
           className="bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
         >
-          {theme === "dark" ? sun : moon}
+          {theme === "dark" ? moon : sun}
         </button>
       </div>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">

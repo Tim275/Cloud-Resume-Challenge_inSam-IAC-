@@ -10,6 +10,16 @@ export default [
   },
 
   {
+    title: "ElasticGuard AI  ",
+    imgUrl: {
+      light: "/assets/genaielastic.png",
+      dark: "/assets/genaielasticblack.png",
+    },
+    stack: ["Elastic", "k8", "python", "Aiops"],
+    link: "https://gitlab.com/timour1/code-repo",
+  },
+
+  {
     title: "CI/CD with Gitlab and Helm  ",
     imgUrl: {
       light: "/assets/CICD_GITLAB_K8_HELM_HELL.png",
