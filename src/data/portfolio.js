@@ -16,7 +16,7 @@ export default [
       dark: "/assets/genaielasticblack.png",
     },
     stack: ["Elastic", "k8", "python", "Aiops"],
-    link: "https://gitlab.com/timour1/code-repo",
+    link: "https://github.com/Tim275/elasticsearch_aiops",
   },
 
   {
